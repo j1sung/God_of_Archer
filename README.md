@@ -83,10 +83,16 @@
 ```
 
 ## 🚩 Build & Run
-1. 빌드
-`[Build Setting] → add GotOfArcher.scene → Build`
-
-2. 빌드된 파일 실행  `God_Of_Archer.exe`
+#### 1. 빌드
+- 경로 `Assets > Scenes > LBK_Assets, LBK_Network`
+```
+[Build Setting] → Build
+- Network_lab.scene
+- ConquerTest.scene
+- DeathMatchTest.scene
+- PracticeTest.scene
+```
+#### 2. 빌드된 파일 실행  `God_Of_Archer.exe`
 <br>
 
 ## 🎮 Control & Play
