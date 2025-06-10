@@ -27,9 +27,9 @@
 ## 💻 Tech Stack
 ### | Work Stack
 <div align="left">
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40"/>
+ &nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="40" height="40"/>
+ &nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="40" height="40"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40"/>
  <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFgm5g8rrdzPg/company-logo_200_200/company-logo_200_200/0/1630460711618/exit_games_logo?e=2147483647&v=beta&t=U1RPD7XVp9E-ex118pvgff__5uPKLsEnJCcqMJ4PMeU" width="40" height="40"/>
 </div>
 <div align="left">
@@ -41,9 +41,9 @@
 ### | Version Control
 <div align="left">
   <!-- GitHub -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/>
+  &nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40" height="40"/>
   <!-- Git -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
+  &nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40"/>
 </div>
 <div align="left">
 <img alt="Static Badge" src="https://img.shields.io/badge/Github-181717?style=flat-square&logo=github&logoColor=white">
@@ -53,11 +53,11 @@
 ### | Tools
 <div align="left">
   <!-- Notion (공식 SVG) -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" width="40" height="40"/>
+  &nbsp;&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png" width="40" height="40"/>
   <!-- Jira -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="40" height="40"/>
+  &nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="40" height="40"/>
   <!-- Confluence -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" width="40" height="40"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" width="40" height="40"/>
 </div>
 <div align="left">
 <img alt="Static Badge" src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
