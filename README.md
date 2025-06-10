@@ -2,9 +2,9 @@
 
 <img alt="Static Badge" src="https://img.shields.io/badge/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%EA%B0%84%3A-2025.05~2025.06-FAB040?style=flat-square&logoColor=white">
 
-|시작 화면|플레이 화면|
+|멀티 매칭 화면|플레이 화면|
 |:---:|:---:|
-|<img src="https://user-images.githubusercontent.com/80824750/208456048-acbf44a8-cd71-4132-b35a-500047adbe1c.gif" width="400"/>|<img src="https://user-images.githubusercontent.com/80824750/208456234-fb5fe434-aa65-4d7a-b955-89098d5bbe0b.gif" width="400"/>|
+|<img src="https://raw.githubusercontent.com/j1sung/God_of_Archer/main/gifs/multi.gif" width="400" alt="멀티 플레이 GIF"/>|<img src="https://raw.githubusercontent.com/j1sung/God_of_Archer/main/gifs/play.gif" width="400" alt="게임 플레이 GIF"/>|
 
 > 조선의 국궁을 테마로 한 멀티 활 데스매치 FPS 게임.
 <br>플레이어는 현실적인 물리가 적용된 활을 사용하여 적을 물리친다.
