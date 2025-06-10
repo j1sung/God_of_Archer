@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7371481233024007612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_Name
+      value: Archer-Bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.096
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.434
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.495
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.43457153
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5366119
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.27476817
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.6691022
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 123.479004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 119.675
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 31.309006
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e1cd1a76ecd557440a55dfaeead52541, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: c3972562e865e5d4c84dff2ee012a91d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8340167218446549245}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: c3972562e865e5d4c84dff2ee012a91d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1557820221606051651}
+  m_SourcePrefab: {fileID: 100100000, guid: c3972562e865e5d4c84dff2ee012a91d, type: 3}
+--- !u!1 &7371481233024039708 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: c3972562e865e5d4c84dff2ee012a91d,
+    type: 3}
+  m_PrefabInstance: {fileID: 7371481233024007612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8340167218446549245
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371481233024039708}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1557820221606051651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371481233024039708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5fc08877d783049bbd1961f536240d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawSound: {fileID: 8300000, guid: 80d3997d16e33744d91d3127539d4fab, type: 3}
+  shootSound: {fileID: 8300000, guid: 4b167db904c649a41b60f3f8d7546bd4, type: 3}
+  bowSetting:
+    attackRate: 0.1
+    attackDistance: 30
+    isOnDraw: 1
+  arrow: {fileID: 0}
+  prefab_arrow: {fileID: 1427921800953958987, guid: 46a6d4eb76612324fbba9310ed1c51a0,
+    type: 3}
+  Arrow_point: {fileID: 0}
+  arrow_power: 50

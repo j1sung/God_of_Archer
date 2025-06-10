@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30764da72183c754e9b29ce5e375757d, type: 3}
+  m_Name: M_OranggaeData
+  m_EditorClassIdentifier: 
+  mappings:
+  - transformPath: Base04_Body1
+    material: {fileID: -4058963038583538169, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Body_LOD11
+    material: {fileID: -4058963038583538169, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Body_LOD21
+    material: {fileID: -4058963038583538169, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eye_In1
+    material: {fileID: -5293325437046338423, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eye_In_LOD11
+    material: {fileID: -5293325437046338423, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eye_In_LOD21
+    material: {fileID: -5293325437046338423, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eye_Out1
+    material: {fileID: 5778389955096320238, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eye_Out_LOD11
+    material: {fileID: 5778389955096320238, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eye_Out_LOD21
+    material: {fileID: 5778389955096320238, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eyelash_Eyebrow1
+    material: {fileID: 3454197476476994066, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eyelash_Eyebrow_LOD11
+    material: {fileID: 3454197476476994066, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Eyelash_Eyebrow_LOD21
+    material: {fileID: 3454197476476994066, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair4
+    material: {fileID: -3495521792109555691, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair5
+    material: {fileID: 4682551256636029578, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair6
+    material: {fileID: 1766195681137192249, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair11
+    material: {fileID: 1766195681137192249, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair12
+    material: {fileID: 1766195681137192249, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair21
+    material: {fileID: 4682551256636029578, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair22
+    material: {fileID: 4682551256636029578, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair31
+    material: {fileID: -3495521792109555691, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Hair32
+    material: {fileID: -3495521792109555691, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Head1
+    material: {fileID: -7520273018572716285, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Head_LOD11
+    material: {fileID: -7520273018572716285, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Head_LOD21
+    material: {fileID: -7520273018572716285, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Mouth1
+    material: {fileID: -8080725740828857621, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Mouth_LOD11
+    material: {fileID: -8080725740828857621, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Mouth_LOD21
+    material: {fileID: -8080725740828857621, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Base04_Soldiers_Clothes1
+    material: {fileID: 2100000, guid: f845a4bd50901134b841ff62e75a03ff, type: 2}
+  - transformPath: Base04_Soldiers_Clothes1.001
+    material: {fileID: 2100000, guid: f845a4bd50901134b841ff62e75a03ff, type: 2}
+  - transformPath: Base04_Soldiers_Clothes2
+    material: {fileID: 2100000, guid: f845a4bd50901134b841ff62e75a03ff, type: 2}
+  - transformPath: Base04_Soldiers_Headband1
+    material: {fileID: 2100000, guid: f845a4bd50901134b841ff62e75a03ff, type: 2}
+  - transformPath: Base04_Soldiers_Headband2
+    material: {fileID: 2100000, guid: f845a4bd50901134b841ff62e75a03ff, type: 2}
+  - transformPath: Base04_Soldiers_Headband3
+    material: {fileID: 2100000, guid: f845a4bd50901134b841ff62e75a03ff, type: 2}
+  - transformPath: Mixamo_Armature/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm/mixamorig:LeftHand/BowPosition/Bow2
+    material: {fileID: 2100000, guid: 0afaf552cac487d49ab98b4ab08f5788, type: 2}
+  - transformPath: Soldiers_Shoes
+    material: {fileID: -2813063622129643475, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Soldiers_Shoes1
+    material: {fileID: -2813063622129643475, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Soldiers_Shoes2
+    material: {fileID: -2813063622129643475, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Soldiers_Wrist Band
+    material: {fileID: -2813063622129643475, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Soldiers_Wrist Band1
+    material: {fileID: -2813063622129643475, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}
+  - transformPath: Soldiers_Wrist Band2
+    material: {fileID: -2813063622129643475, guid: d48040719082b3548895fd6f2f6cd6f6, type: 3}

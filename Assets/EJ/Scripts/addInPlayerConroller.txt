@@ -1,0 +1,43 @@
+private void OnTriggerStay(Collider other)
+{
+    BeaconController beacon = other.GetComponent<BeaconController>();
+    if (beacon == null)
+        return;
+
+    // E 키를 누르고 있는지 체크
+    if (Input.GetKey(KeyCode.E))
+    {
+        // 팀별로 점화/소화 가능 여부와 시간 체크
+        if (playerTeam == Team.Escape && beacon.CanIgnite)
+        {
+            interactTimer += Time.deltaTime;
+            if (interactTimer >= IGNITE_TIME)
+            {
+                GameManager.Instance.TryIgniteBeacon(beacon);
+                interactTimer = 0f;
+            }
+        }
+        else if (playerTeam == Team.Block && beacon.CanExtinguish)
+        {
+            interactTimer += Time.deltaTime;
+            if (interactTimer >= EXTINGUISH_TIME)
+            {
+                GameManager.Instance.TryExtinguishBeacon(beacon);
+                interactTimer = 0f;
+            }
+        }
+    }
+    else
+    {
+        interactTimer = 0f;
+    }
+}
+
+private void OnTriggerExit(Collider other)
+{
+    BeaconController beacon = other.GetComponent<BeaconController>();
+    if (beacon != null)
+    {
+        interactTimer = 0f;
+    }
+}
