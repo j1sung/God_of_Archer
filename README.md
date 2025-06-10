@@ -104,5 +104,5 @@
 ## 🔗 관련 링크
 - 시연 영상 링크 : ~
 - Notion : 
-- Jira : <br>https://roadofmartialts.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-96
-- Confluence : <br>https://roadofmartialts.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-96
+- Jira : [Jira 백로그](https://roadofmartialts.atlassian.net/jira/software/projects/SCRUM/boards/1)
+- Confluence : [Confluence](https://roadofmartialts.atlassian.net/wiki/spaces/ergVlj2bCyn3/overview)
