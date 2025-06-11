@@ -74,19 +74,45 @@
 ## 🗂 Directory
 ```
 📂 Assets
-    📂 Photon
-    📂 Scripts
-    📂 Prefabs
-    📂 Materials
-    ├─
-    └─ 
+ ├─📂 Photon
+ ├─📂 Scripts
+ ├─📂 Prefabs
+ ├─📂 Materials
+ └─📂 Scenes  
+    ├─📂 LBK_Network
+    |     - Network_lab.scene (메인 Scene)
+    └─📂 LBK_Assets
+       ├─ 📂 Animation
+       ├─ 📂 AudioSource
+       ├─ 📂 Prefabs (게임에 필요한 Prefab)
+       |   - NetworkRunner.prefab (게임에 사용되는 네트워크 러너)
+       |   - Player_Network_Fin_chung.prefab (청나라 게임 플레이어 프리팹)
+       |   - Player_Network_Fin_Josen.prefab (조건 게임 플레이어 프리팹)
+       ├─ 📂 Scenen
+       |   - Conquer Test.scene (미완 Scene)
+       |   - Death Match Test.scene (데스메치 Scene)
+       |   - Practice Test.scene (미완 Scene)
+       ├─ 📂 Script
+       |   ├─📂 Beacon (봉화 조작 스크립트, 구현 실패)
+       |   ├─📂 GameScript (Game Mechanism 관련 스크립트)
+       |   |  - Gameplay.cs (게임 Manager)
+       |   ├─📂 Menu (Fusion Menu 관련 스크립트)
+       |   ├─📂 Player (Player 관련 스크립트)    
+       |   ├─📂 UI (UI 관련 스크립트)      
+       |   └─📂 Weapons (무기 관련 스크립트)
+       ├─ 📂 Settings
+       └─ 📂 Sprite
 ```
 
 ## 🚩 Build & Run
-#### 1. 빌드
+#### 1. 빌드 세팅
+- `Assets → Scenes → LBK_Assets → Scene → DeathMatch → Gameplay → Start_player_cnt` 값 설정(반드시 2의 배수로 설정, 최소 2, 최대 10)
+  
+#### 2. 빌드
 - 경로 `Assets > Scenes > LBK_Assets, LBK_Network`
+
 ```
-[Build Setting] → Build
+[Build Setting] → 빌드 씬 4가지 포함 Build!
 - Network_lab.scene
 - ConquerTest.scene
 - DeathMatchTest.scene
@@ -95,7 +121,13 @@
 #### 2. 빌드된 파일 실행  `God_Of_Archer.exe`
 <br>
 
-## 🎮 Control & Play
+## 🎮 Play & Control
+
+### | Play Method
+1. 유니티 에디터로 게임을 시작 → 마스터 클라이언트 서버 오픈
+2. 나머지 플레이어가 빌드된 실행 파일로 게임을 접속
+3. (현재)총 4인이 모이면 게임이 시작 → 2:2 매칭 데스매치 시작!
+
 ### | Control
 |조작|버튼|
 |:---:|:---:|
@@ -104,11 +136,6 @@
 |활 줍기|E|
 |활 쏘기|마우스 좌클릭|
 |활 초기화|R|
-
-### | Play Method
-1. 마스터 클라이언트(유니티 에디터)가 게임을 시작 → 서버 오픈
-2. 나머지 플레이어가 게임을 접속
-3. (현재)총 4인이 모이면 게임이 시작 → 2:2 매칭 데스매치 시작!
 <br>
 
 ## 🔗 관련 링크
