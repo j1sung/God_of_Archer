@@ -96,7 +96,7 @@
        |   ├─📂 Beacon (봉화 조작 스크립트, 구현 실패)
        |   ├─📂 GameScript (Game Mechanism 관련 스크립트)
        |   |  - Gameplay.cs (게임 Manager)
-       |   ├─📂 Menu (Fusion Menu 관련 스크립트)
+       |   ├─📂 Menu (Fusion Menu 관련 스크립트) → 📂_JS > Scenes > Editor & Runtime 내부 존재
        |   ├─📂 Player (Player 관련 스크립트)    
        |   ├─📂 UI (UI 관련 스크립트)      
        |   └─📂 Weapons (무기 관련 스크립트)
