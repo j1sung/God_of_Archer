@@ -136,9 +136,6 @@
 |활 줍기|E|
 |활 쏘기|마우스 좌클릭|
 |활 초기화|R|
-<br>
-
-## 🔗 관련 링크
 - 시연 영상 링크 : [신궁 플레이](https://drive.google.com/file/d/1sfewZwva9eQGLppeQQJ2SbsLQTAoakjw/view?usp=sharing)
 - Notion : [노션 작업](https://acute-library-43c.notion.site/19de57fa71f28068ad51fa3b40ad7889?source=copy_link)
 - Jira : [Jira 백로그](https://roadofmartialts.atlassian.net/jira/software/projects/SCRUM/boards/1)
